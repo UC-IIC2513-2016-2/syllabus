@@ -1,0 +1,17 @@
+- se arma el request a enviar
+- navegador busca en DNS cuál es la dirección IP correspondiente a www.ing.puc.cl
+	- petición
+	- respuesta con la IP
+- se almacena la resolución DNS
+- conexión IP
+- navegador envía request HTTP GET a www.ing.puc.cl
+- recibe la petición HTTP GET 
+- servidor analiza permisos del cliente para ver que responder
+- se ejecuta la aplicación para determinar la respuesta
+- comprimir la respuesta
+- servidor envía el archivo HTML, CSS y demases al browser
+- descomprimir respuesta
+- se almacenan recursos en cache
+- se piden recursos adicionales mencionados en la página recibida
+- se interpretan los archivos CSS y JS y se calculan las propiedades de los elementos
+- desplegar gráficamente los datos recibidos
