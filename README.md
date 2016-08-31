@@ -31,6 +31,9 @@
 
 | Nombre                | Github        | Email         |
 |:--------------------- |:--------------|:--------------|
+| Javier Díaz           |  [@javierdihu](https://github.com/javierdihu)| jidiaz3@uc.cl |
+| Manuel Cartagena      |  [@manuel0097](https://github.com/manuel0097)| micartagena@uc.cl |
+| Felipe Cortés         |  [@fcortes](https://github.com/fcortes)      | ficortes@uc.cl |
 
 ## Objetivos
 

@@ -4,6 +4,26 @@ Durante el semestre tendrán que realizar 6 entregas, y cada una irá construyen
 
 Los enunciados dan la línea general de la funcionalidad que deben implementar, pero serán deliberadamente ambiguos de manera que ustedes usen su creatividad para crear una aplicación realmente única. Salvo algunos casos, ustedes tendrán total libertad en cuanto a la interfaz y la implementación de su trabajo.
 
+## Equipo, proyectos y ayudantes guías
+
+Cada equipo tiene asignado un proyecto y un ayudante que los guiará y evaluará durante el semestre. Las asignaciones de proyecto y ayudante son:
+
+Equipo  | Proyecto | Ayudante
+|:-------------------- |:---------------------------| :------|
+Omelette du Fromage    | Ubersidad                  | Felipe |
+calexis                | Anyone can teach           | Manuel |
+TableDroppers          | Take a day off!            | Felipe |
+Ubisunt                | Juego Online               | Javier |
+HomeAlone              | Diskover                   | Manuel |
+EscuadronContable      | Controlador de presupuesto | Javier |
+Vbit                   | Controlador de presupuesto | Javier |
+Transportador          | Transportador              | Manuel |
+C^2                    | Ubersidad                  | Felipe |
+Arcane                 | Juego Online               | Javier |
+NUGTOHS                | Ubersidad                  | Felipe |
+
+## Entregas
+
 A continuación, las fechas y enunciados de las entregas:
 
 * [Entrega 1](entregas/Entrega1.md): 30 de agosto de 2016 a las 21:59:59.999
