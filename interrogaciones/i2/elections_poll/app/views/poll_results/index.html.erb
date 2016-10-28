@@ -1,0 +1,23 @@
+<section>
+  <h1>Resultados por comuna</h1>
+  <nav id="municipality-index">
+    <ul class="municipalities-links">
+      <% @municipalities.each do |municipality| %>
+        <li><%= link_to municipality.name %></li>
+      <% end %>
+    </ul>
+  </nav>
+  <div id="municipality-results">
+    <% @municipalities.each do |municipality| %>
+      <article class="municipality-result">
+        <h2><%= municipality.name %></h2>
+        <div>
+          <%= image_tag Faker::Placeholdit.image('100x100') %>
+          <% Faker::Hipster.paragraphs(2).each do |p| %>
+          <p><%= p %></p>
+          <% end %>
+        </div>
+      </article>
+    <% end %>
+  </div>
+</section>

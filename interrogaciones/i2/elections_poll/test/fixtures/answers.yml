@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  will_vote: false
+  voted_past_election: false
+  politics_satisfaction: 1
+  municipality: one
+  preferred_candidate: one
+
+two:
+  will_vote: false
+  voted_past_election: false
+  politics_satisfaction: 1
+  municipality: two
+  preferred_candidate: two

@@ -1,0 +1,22 @@
+<h1>Encuesta para <%= @municipality.name %></h1>
+<p>Responde las siguientes preguntas</p>
+
+<%= form_for [@municipality, @answer] do |f|  %>
+  <div class="field">
+    <%= f.label :will_vote, '¿Piensa votar en las próximas elecciones?' %>
+    <%= f.check_box :will_vote %>
+  </div>
+  <div class="field">
+    <%= f.label :voted_past_election, '¿Votó en las elecciones pasadas?' %>
+    <%= f.check_box :voted_past_election %>
+  </div>
+  <div class="field">
+    <%= f.label :politics_satisfaction, 'De 1 a 100, ¿qué tan satisfecho está con los políticos actuales?' %>
+    <%= f.text_field :politics_satisfaction, type: :number %>
+  </div>
+  <div class="field">
+    <%= f.label :preferred_candidate_id, '¿Piensa votar en las próximas elecciones?' %>
+    <%= f.collection_select :preferred_candidate_id, @candidates, :id, :name %>
+  </div>
+  <%= f.submit 'Enviar respuesta' %>
+<% end %>
