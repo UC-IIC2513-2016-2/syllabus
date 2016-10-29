@@ -1,0 +1,60 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+nav {
+  float: right;
+  width: 20%;
+}
+
+nav ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  text-align: right;
+  border: 1px solid #aaa;
+  border-top-width: 0;
+  background: #ddd;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+nav ul li:first-child {
+  border-top-width: 1px;
+}
+
+#municipality-results {
+  box-sizing: border-box;
+  padding-left: 20px;
+  width: 80%;
+}
+
+article.municipality-result {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+article.municipality-result img {
+  float: left;
+  margin: 0 15px 15px 0;
+}
