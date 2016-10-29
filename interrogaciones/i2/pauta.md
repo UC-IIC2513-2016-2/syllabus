@@ -64,7 +64,7 @@ Puedes ver un ejemplo de [controller](elections_poll/app/controllers/answers_con
 
 ### Pauta
 
-Esta pregunta fue corregida utilizando la [siguiente rúbrica]().
+Esta pregunta fue corregida utilizando la [siguiente rúbrica](https://docs.google.com/spreadsheets/d/10N-U6zb_uNFBG3EecDjgDDbfWobg9QxjPdv8WjZ5kvY/edit#gid=1634865249).
 
 ## Ejercicio 3 (35%)
 
@@ -72,4 +72,4 @@ Puedes ver un ejemplo de la [vista HTML](elections_poll/app/views/poll_results/i
 
 ### Pauta
 
-Esta pregunta fue corregida utilizando la [siguiente rúbrica]().
+Esta pregunta fue corregida utilizando la [siguiente rúbrica](https://docs.google.com/spreadsheets/d/10N-U6zb_uNFBG3EecDjgDDbfWobg9QxjPdv8WjZ5kvY/edit#gid=0).
