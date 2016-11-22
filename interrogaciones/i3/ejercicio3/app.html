@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Election results</title>
+    <style media="screen">
+      body {
+        font-family: sans-serif;
+      }
+      #states-details a {
+        display: block;
+      }
+      #winner.happy {
+        background: #dfd;
+      }
+      #winner.happy::after {
+        content: ":D";
+      }
+      #winner.sad {
+        background: #fdd;
+      }
+      #winner.sad::after {
+        content: ":'(";
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h2>Mi candidato(a) es</h2>
+    <div>
+      <label for="select-clinton">Clinton</label>
+      <input type="radio" id="select-clinton" name="candidate" value="clinton">
+      <label for="select-trump">Trump</label>
+      <input type="radio" id="select-trump" name="candidate" value="trump">
+    </div>
+
+    <h2>Resultados</h2>
+    <p id="winner">
+      Actual ganador(a): <strong>None</strong>
+    </p>
+    <p>
+      Porcentaje de escrutinio: <span id="counting-percentage">None</span>
+    </p>
+    <div id="states-details">
+      <a id="north-carolina">North Carolina</a>
+      <a id="california">California</a>
+      <!-- más anchors para cada uno de los estados -->
+    </div>
+  </body>
+</html>

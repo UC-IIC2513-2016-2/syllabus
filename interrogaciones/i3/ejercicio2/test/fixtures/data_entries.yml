@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  temperature: 1.5
+  temperature_unit: MyString
+  latitude: 1.5
+  longitude: 1.5
+  altitude: 1.5
+  outside: false
+  notes: MyString
+
+two:
+  temperature: 1.5
+  temperature_unit: MyString
+  latitude: 1.5
+  longitude: 1.5
+  altitude: 1.5
+  outside: false
+  notes: MyString
