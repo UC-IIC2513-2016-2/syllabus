@@ -7,7 +7,7 @@ A: La fecha de las demos será este viernes 2 de diciembre, en horarios disponib
 
 #### Q: ¿Dónde es?
 
-A: En el Campus San Joaquín… Apenas tengamos la sala específica la publicaremos.
+A: En la sala H1, primer piso edificio San Agustín, Campus San Joaquín.
 
 #### Q: ¿Cuánto tiempo dura cada presentación?
 
