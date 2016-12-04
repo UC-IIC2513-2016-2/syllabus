@@ -1,0 +1,39 @@
+html, body {
+  font-family: sans-serif;
+}
+
+nav {
+  border: 1px solid #aaa;
+  width: 200px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  background: #eee;
+  border-bottom: 1px solid #aaa;
+  position: relative;
+}
+
+nav a::after {
+  content: "\203A";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav a:last-child {
+  border: none;
+}
+
+/* ejercicio 4 */
+nav a .results {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(100%, -1px);
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 0 5px 5px 5px;
+}
