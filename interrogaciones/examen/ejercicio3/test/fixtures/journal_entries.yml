@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  text: MyString
+  feeling: MyString
+  timestamp: 2016-12-04 01:21:56
+  position: MyString
+  user: one
+
+two:
+  text: MyString
+  feeling: MyString
+  timestamp: 2016-12-04 01:21:56
+  position: MyString
+  user: two

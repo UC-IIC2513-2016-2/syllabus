@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Trojans</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @trojans.each do |trojan| %>
+      <tr>
+        <td><%= trojan.name %></td>
+        <td><%= link_to 'Show', trojan %></td>
+        <td><%= link_to 'Edit', edit_trojan_path(trojan) %></td>
+        <td><%= link_to 'Destroy', trojan, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Trojan', new_trojan_path %>

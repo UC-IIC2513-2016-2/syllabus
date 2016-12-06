@@ -1,0 +1,1 @@
+json.array! @trojans, partial: 'trojans/trojan', as: :trojan

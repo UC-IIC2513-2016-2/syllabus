@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @journal_entry.text %>
+</p>
+
+<p>
+  <strong>Feeling:</strong>
+  <%= @journal_entry.feeling %>
+</p>
+
+<p>
+  <strong>Timestamp:</strong>
+  <%= @journal_entry.timestamp %>
+</p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @journal_entry.position %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @journal_entry.user %>
+</p>
+
+<%= link_to 'Edit', edit_journal_entry_path(@journal_entry) %> |
+<%= link_to 'Back', journal_entries_path %>
